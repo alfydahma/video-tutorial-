@@ -12,7 +12,7 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
+    <title>My Greatest Book</title>
     <subtitle>An example to get you started</subtitle>
 
     <frontmatter xml:id="frontmatter">
@@ -49,9 +49,9 @@
     <chapter xml:id="chapter-title">
       <title>Chapter title</title>
 
-      <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello</p>
+      <section xml:id="section-demo-pretext">
+        <title>Demo Of Prextext features</title>
+        <p> Hello <me> \int_1^2 \frac{1}{x} \, dx  </me> </p>
       </section>
 
     </chapter>
@@ -60,7 +60,8 @@
       <title>Backmatter</title>
 
       <colophon>
-        <p> This book was authored in <pretext />. </p>
+        <p> This book was authored in <pretext />. 
+        </p>
       </colophon>
 
     </backmatter>
